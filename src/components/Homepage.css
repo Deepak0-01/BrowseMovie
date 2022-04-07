@@ -1,0 +1,70 @@
+.homepage{
+  
+    background-image: url("./bg.jpg");
+    background-size: contain;
+    background-position: 50%;
+   
+   height:100vh;
+   
+  
+   overflow-x:hidden;
+
+    
+    
+   
+  
+    color:white;
+   
+   
+   
+}
+
+
+
+
+
+.homepage_movies{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:85vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+  
+    height:fit-content;
+}
+
+.moviecard{
+
+    margin:14px;
+    width:200px;
+    font-size: 18px;
+}
+
+.homepage_pagination{
+   
+
+    display:flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin:2px;
+    width:80vw;
+  
+    font-size:10px;
+   color:white;
+    
+}
+
+.page_nav{
+
+    background-color:white;
+    opacity:0.8;
+    width:60vw;
+    display:flex;
+    justify-content: center;
+   margin-left:auto;
+   margin-right:auto;
+    border-radius:50px;
+   
+}

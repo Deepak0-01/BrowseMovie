@@ -1,0 +1,141 @@
+.moviepage{
+
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0,0,0,.5);
+    margin-top:40px;
+}
+
+.moviepage_details{
+    display:flex;
+   
+
+}
+
+.moviepage_details--image{
+    width:50%;
+   
+}
+
+
+.movie_img{
+   
+   
+
+    object-fit: cover;
+  
+
+    
+}
+.moviepage_details--info{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:40px;
+   
+
+   
+}
+
+.moviepage_details--image{
+    width:300px;
+}
+
+
+
+.moviepage_details--info-title h1{
+    color:#FFC107;
+}
+
+.moviepage_details--info-watchlistbtn button {
+    
+
+    background-color: #32be51;
+    color:#dee2e6;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    width:200px;
+    height:40px;
+    margin-top:30px;
+    margin-left:10px;
+    font-size:16px;
+
+
+}
+
+.moviepage_details--info-overview p{
+
+    color: #dee2e6;
+ width:700px;
+ line-height: 1.5em;
+ font-size:18px;
+ margin-top:20px;
+
+
+}
+
+.moviepage_details--info-genres{
+
+    width:800px;
+    height:100px;
+   
+ 
+    display:flex;
+    
+    align-items: center;
+    color:#dee2e6;
+   
+}
+.moviepage_details--info-genres h3{
+    margin-right: 20px;
+}
+
+.badge{
+    color:#dee2e6;
+    margin-top:15px;
+    text-align: center;
+  
+}
+
+
+.genre{
+    background-color:#FFC107 ;
+    margin-right:10px;
+    width:fit-content;
+   
+    font-size: 18px;
+    padding: 5px;
+
+    border-radius: 10px;
+    color:rgb(12, 12, 12);
+   
+  
+}
+
+.moviepage_details--info-botttom{
+    color:#dee2e6;
+   
+
+}
+
+.clock{
+    margin-right:5px;
+}
+
+.moviepage_actors{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: whitesmoke;
+
+}
+
+.actors_header{
+    color:#dee2e6;
+    margin-left:80px;
+    margin-top:30px;
+    margin-bottom:30px;
+    
+}

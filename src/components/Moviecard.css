@@ -1,0 +1,23 @@
+.moviecard{
+
+background-color:black;
+}
+
+.moviecard p{
+    max-width:100px;
+}
+
+.moviecard_genre{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+ 
+    width:800px;
+    height:400px;
+  
+
+}
+
+.moviecard_genre span{
+    margin:2px;
+}

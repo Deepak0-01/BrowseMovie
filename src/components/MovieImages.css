@@ -1,0 +1,10 @@
+.movie_gallery{
+   
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.movie_gallery--img{
+    margin:5px;
+}
